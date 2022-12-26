@@ -1,0 +1,80 @@
+body{
+    margin-left: 340px;
+    margin-top: 61px;
+    background-color: #1C76B8;
+}
+img{
+    max-width: 100%;
+    width: 121.33px;
+    height: 143.57px;
+}
+h1{
+    margin: 0;
+}
+.header{
+    letter-spacing: 10px;
+    color: white;
+}
+.content{
+    font-size: 19px;
+    color: rgb(220, 220, 220);
+    padding-bottom: 40px;
+    line-height: 33px;
+}
+input#form_email[type="email"]{
+    padding: 1.5rem;
+    height: 1.5rem;
+    background-color: #FFFFFF;
+    color: #8c8c8c;
+    font-size: 1.125rem;
+    font-weight: 400;
+    border-radius: 0.25rem;
+    border: 0;
+    display: block;
+    outline: 0;
+    width: 60%;
+}
+.highlight{
+    display: inline;
+    background: #FFFF00;
+    color: black;
+}
+
+.credit{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+}
+.contact{
+    margin: 50px;
+    margin-left: 0;
+    font-size: 13px;
+    color: rgb(172, 172, 172);
+}
+.submit{
+    margin-top: 17px;
+    display: inline-block;
+    padding: 0 1.625rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #3BACFF;
+    position: relative;
+}
+button[type="submit"]{
+    font-size: 17px;
+    font-family:'Space Mono', monospace;;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    white-space: nowrap;
+    height: 3.25rem;
+    line-height: 3.25rem;
+    font-weight: 400;
+}
