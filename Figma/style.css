@@ -28,16 +28,38 @@
 .img img{
     width: 100%;
 }
+.text{
+    margin-bottom: -3rem;
+}
 .header-name h1,p{
     display: flex;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
     align-items: center;
     background-color: white;
     padding-top: 20px;
+}
+.header-name h1{
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.1rem;
+    width: 100%;
+    font-size: 2em;
+    line-height: 1.25;
+    font-weight: 400;
+}
+.header-name p{
+    color: rgba(0,0,0,0.522);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.05rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.25;
+    font-weight: 400;
 }
 .about{
     margin-top: 4.3rem;
     background-color: #4299FF;
     width: 600px;
-    height: 200px;
+    height: 250px;
 }
