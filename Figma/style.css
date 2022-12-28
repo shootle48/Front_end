@@ -8,10 +8,9 @@
     background-color: white;
     width: 600px;
     margin: 4.5rem auto;
-    height: 550px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding-top: 5rem;
+    height: 1000px;
+    border-radius: 8px;
+    padding: 5rem 0;
     overflow: hidden;
 }
 .img{
@@ -22,8 +21,8 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: aqua;
-    width: 102.67px;
-    height: 102.91px;
+    width: 122.91px;
+    height: 122.67px;
 }
 .img img{
     width: 100%;
@@ -44,7 +43,7 @@
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.1rem;
     width: 100%;
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 1.25;
     font-weight: 400;
 }
@@ -53,13 +52,80 @@
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.05rem;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.13em;
     line-height: 1.25;
     font-weight: 400;
+    padding-bottom: 2.5rem;
 }
 .about{
     margin-top: 4.3rem;
     background-color: #4299FF;
     width: 600px;
     height: 250px;
+    padding: 3.5rem 3rem;
+}
+.About{
+    margin-left: 5rem;
+    font-size: 17px;
+    color: #F9FCFF;
+    float: left;
+    font-family: 'Inter', sans-serif;
+    background-color: #4299FF;
+}
+.vertical{
+    line-height: 1.5rem;
+    margin-right: 2rem;
+    color: #C0DAFF;
+    font-family: 'Inter', sans-serif;
+    background-color: #4299FF;
+    float: right;
+    border-left: 2px solid #6AAEFF;
+    padding-left: 2rem;
+}
+
+a{
+    background-color: #4299FF;
+    color: #EDF5FF;
+}
+.recent-work{
+    background-color: #3288ED;
+    width: 600px;
+    height: 390px;
+    padding-top: 2.5rem;
+}
+.Recent{
+    margin-left: 5rem;
+    font-size: 17px;
+    color: #F9FCFF;
+    float: left;
+    font-family: 'Inter', sans-serif;
+    background-color: #3288ED;
+    padding-top: 2rem;
+}
+.check ul{
+    background-color: #3288ED;
+    float: left;
+    border-left: 2px solid #000000;
+    padding-left: 2rem;
+}
+.check ul li{
+    background-color: #3288ED;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 1rem;
+}
+.check ul li img{
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    background-color: #3288ED;
+    width: 5%;
+    height: 5%;
+}
+.check ul li p{
+    background-color: #3288ED;
+    padding-right: 4rem;
+}
+.check ul li a{
+    background-color: #3288ED;
 }
