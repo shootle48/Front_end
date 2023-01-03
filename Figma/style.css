@@ -141,11 +141,38 @@ a{
 }
 .Contact{
     background-color: #277DE3;
+    margin-left: 6.7rem;
+    margin-bottom: 10rem;
+    margin-right: 2.5rem;
+    padding-top: 2.5rem;
     font-size: 17px;
     color: #F9FCFF;
     float: left;
     font-family: 'Inter', sans-serif;
 }
-.contact a img{
-    width: 3%;
+.contact img{
+    width: 6%;
+    background-color: #277DE3;
+    padding-right: 0.5rem;
+}
+
+.contact .line{
+    margin-top: 2.5rem;
+    padding: 4.7rem 1rem;
+    background-color: #277DE3;
+    float: left;
+    border-left: 2px solid #5FA2F0;
+}
+.contact .social{
+    background-color: #277DE3;
+    padding: 2.5rem;
+}
+.contact a{
+    background-color: #277DE3;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #C7E3F2;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    text-decoration: none;
 }
