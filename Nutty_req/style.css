@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    z-index: initial;
+    border-radius: 4%;
+    margin: 1rem 2rem;
+    background-color: white;
+}
+.home-left .home-img{
+    padding: 1rem 1.5rem;
+}
+.backgourd{
+    overflow: hidden;
+    background-color: #8B65EC;
+}
